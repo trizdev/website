@@ -1,0 +1,58 @@
+Plugin Name: WP Defender
+Author: WPMU DEV
+Tested up to: 6.4.2
+
+Change Log:
+
+= 4.5.0 ( 2024-01-24 ) =
+
+- Enhance: Compatibility with PHP 8.3
+- Enhance: Improve white-labeled emails
+- Enhance: Redesign Quarantine page
+- Fix: Scanning Issues when suspicious files are in the plugins folder and don't have plugin headers
+- Fix: Remove redundant table creation conditional guard clause
+- Fix: Rules for Defender > 2FA > Woocommerce are not overwritten over time
+- Fix: Scan flagging "All in one security" files as suspicious
+- Fix: Defender Google reCAPTCHA does not work with WooCommerce Gutenberg Checkout block
+- Fix: Masked Login not working after registration
+
+= 4.4.2 ( 2024-01-22 ) =
+
+- Enhance: Recommended IP Detection method with improved accuracy, site security, and harder-to-bypass IP banning
+
+= 4.4.1 ( 2023-12-19 ) =
+
+- Enhance: UI Enhancements
+
+= 4.4.0 ( 2023-12-11 ) =
+
+- Enhance: Adjust the size of the summary box logo
+- Enhance: Update the Twitter name and logo
+- Enhance: Update SUI to the latest version
+- Fix: Update malware signatures
+- Fix: PHP warning after activating Defender Security Headers
+- Fix: Remove Translation Link when the Whitelabel Hide Links option is enabled
+
+= 4.3.1 ( 2023-12-06 ) =
+
+- Enhance: Minor code improvements and fixes
+
+= 4.3.0 ( 2023-11-27 ) =
+
+- Enhance: Whitelist IP addresses
+- Enhance: Display the status of Global IP in config details
+- Enhance: Check for plugin tables created without the default upgrade.php file
+- Enhance: Add URI Parameter to the 'wd_404_lockout' hook
+- Fix: Update malware signatures
+- Fix: Failed login with 2FA on Masked Login page
+- Fix: PHP v8.1 warning for Defender Masked Login
+- Fix: PHP v8.1 warning for setcookie()
+- Fix: Issue when applying custom config
+
+= 4.2.1 ( 2023-10-19 ) =
+
+- Fix: Deprecation error in the log
+- Fix: Data opt-in modal visibility conditions
+
+
+935571-1706191703-au
